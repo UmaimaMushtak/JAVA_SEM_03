@@ -6,9 +6,11 @@ class FRUIT5{
     FRUIT5(){
         this("Unknown" ,"Unknown" ,0);
     }
+
     FRUIT5(String color, String taste){
         this(color, taste, 0);
     }
+
     FRUIT5(String color, String taste, int price){
         this.color = color;
         this.taste = taste;
